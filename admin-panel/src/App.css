@@ -1,0 +1,14 @@
+/* Purple Admin theme is loaded via public/index.html vendor links.
+   Only app-specific overrides go here. */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Ensure modals work without Bootstrap JS portal */
+.modal-backdrop.show {
+  z-index: 1040;
+}
+.modal.show {
+  z-index: 1050;
+}
